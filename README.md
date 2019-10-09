@@ -1,3 +1,7 @@
+<div align="center">
+<img width="500" height="350" src="https://gitcdn.xyz/repo/sindresorhus/awesome/master/media/logo.svg" alt="Awesome">
+</div>
+
 # Awesome-UI-Elements
 basically a collection of cool buttons, cards, navs, components, really sweet bits of UI that can be pulled out and plugged into any project
 
