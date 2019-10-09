@@ -10,14 +10,14 @@
     <body>
         <div id="myOverlay" class="overlay">
             <div class ="wrap">
-                <h2>Sign Up Here</h2>
-                <img src ="https://www.stickpng.com/assets/images/585e4bcdcb11b227491c3396.png"id="users"> 
-                <form>
-                    <input type="text" placeholder="Enter First Name">
-                    <input type="text" placeholder="Enter last Name">
-                    <input type="text" placeholder="Enter Email">
-                    <input type="password" placeholder="Enter Password" id="password01">
-                    <input type="text" placeholder="Re-Enter Password" id="password02">
+                <h2 align="center">Sign Up Here</h2>
+                <img src ="https://www.stickpng.com/assets/images/585e4bcdcb11b227491c3396.png"id="users" alt="Logo" style="height: 500px"> 
+                <form align="center">
+                    First Name:<input type="text" placeholder="Enter First Name" required><br>
+                    Last Name:<input type="text" placeholder="Enter Last Name" required><br>
+                    Email:  &nbsp; &nbsp;  &nbsp;  &nbsp;<input type="email" placeholder="Enter Email" required><br>
+                    Password:  <input type="password" placeholder="Enter Password" id="password01" required><br>
+                    <input type="password" placeholder="Re-Enter Password" id="password02" required><br>
                     DOB :<select name="dob">
                         <option value="0">Month</option>
                         <option value="1">January</option>
@@ -35,7 +35,7 @@
                     </select>
                     <input type="text" placeholder="Day" id=date>
 
-                    <input type="text" placeholder="Year" id=date>
+                    <input type="text" placeholder="Year" id=date><br>
 
                     Gender:&nbsp;<input type="radio" name="g" id=gender> M &nbsp;
 
@@ -43,7 +43,7 @@
 
                     <input type="radio" name="g" id=gender> Other
 
-                    <input type="text" placeholder="Telephone Number" id="telenum"onclick="numericalValidation()">
+                    <input type="text" placeholder="Telephone Number" id="telenum"onclick="numericalValidation()"><br>
 
                     Confirm Submission:<input type="checkbox" id="check">
 
