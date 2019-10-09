@@ -14,8 +14,9 @@ Raise an issue if you want to
 To contribute
 
 1. Fork this
-2. make a contribution great or small
-3. submit a PR
+2. check out the issues and look at the ones you'd like to work on
+3. request the issue to be assigned to you and work on it after it is assigned to you
+4. submit a PR
 
 Thanks for showing up!
 
