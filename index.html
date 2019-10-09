@@ -4,20 +4,20 @@
         <title>
             Overlay Signup
         </title>
-	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<link rel="stylesheet" type="text/css" href="./style.css" />
 	<script type="text/javascript" src="index.js"></script>
     </head>
     <body>
         <div id="myOverlay" class="overlay">
             <div class ="wrap">
-                <h2 align="center">Sign Up Here</h2>
-                <img src ="https://www.stickpng.com/assets/images/585e4bcdcb11b227491c3396.png"id="users" alt="Logo" style="height: 500px"> 
-                <form align="center">
-                    First Name:<input type="text" placeholder="Enter First Name" required><br>
-                    Last Name:<input type="text" placeholder="Enter Last Name" required><br>
-                    Email:  &nbsp; &nbsp;  &nbsp;  &nbsp;<input type="email" placeholder="Enter Email" required><br>
-                    Password:  <input type="password" placeholder="Enter Password" id="password01" required><br>
-                    <input type="password" placeholder="Re-Enter Password" id="password02" required><br>
+                <h2>Sign Up Here</h2>
+                <img src ="https://www.stickpng.com/assets/images/585e4bcdcb11b227491c3396.png"id="users" style="width: 300px; height: 300px;"> 
+                <form>
+                    <input type="text" placeholder="Enter First Name">
+                    <input type="text" placeholder="Enter last Name">
+                    <input type="text" placeholder="Enter Email">
+                    <input type="password" placeholder="Enter Password" id="password01">
+                    <input type="text" placeholder="Re-Enter Password" id="password02">
                     DOB :<select name="dob">
                         <option value="0">Month</option>
                         <option value="1">January</option>
@@ -35,7 +35,7 @@
                     </select>
                     <input type="text" placeholder="Day" id=date>
 
-                    <input type="text" placeholder="Year" id=date><br>
+                    <input type="text" placeholder="Year" id=date>
 
                     Gender:&nbsp;<input type="radio" name="g" id=gender> M &nbsp;
 
@@ -43,7 +43,7 @@
 
                     <input type="radio" name="g" id=gender> Other
 
-                    <input type="text" placeholder="Telephone Number" id="telenum"onclick="numericalValidation()"><br>
+                    <input type="text" placeholder="Telephone Number" id="telenum"onclick="numericalValidation()">
 
                     Confirm Submission:<input type="checkbox" id="check">
 
@@ -53,28 +53,9 @@
         </div>
         <button class ="openbtn" onclick="openForm()">Click Here to Sign Up</button>
         
+        <a href="#" class="button">Button 1</a>
+        <a href="#" class="button" style="animation-delay:500ms">Button 2</a>
+        <a href="#" class="button" style="animation-delay:600ms">Button 3</a>
+        <a href="#" class="button" style="animation-delay:700ms">Button 4</a>
     </body>
-</html>
-=======
-<html lang="en">
-<head>
-  <title>Hactoberfest</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="public/css/index.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="public/js/index.js"></script>
-</head>
-<body>
-
-<div class="jumbotron text-center">
-  
-</div>
-
-
-</body>
-  
 </html>

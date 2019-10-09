@@ -1,0 +1,35 @@
+.button {
+    background-color: #fff;
+    border-radius: 9198px;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    color: #9013fe;
+    display: inline-block;
+    font-size: 0.875rem;
+    line-height: 1;
+    padding: 1.25em 2em;
+    text-shadow: none;
+    transition-property: box-shadow, transform;
+    user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+
+    animation-duration: 1.5s;
+   animation-timing-function: cubic-bezier(0, 0.5, 0, 1);
+   animation-fill-mode: both;
+   animation-name: bounceIn;
+   animation-delay: 400ms;
+}
+
+
+@keyframes bounceIn {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
