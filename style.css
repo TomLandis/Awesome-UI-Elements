@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
 
 .hello{
+    transition:0.5s all ease;
   margin: 30px;
   font-size:50px;
   padding: 20p;
@@ -11,9 +12,12 @@
   height:100px;
   font-weight:700;
   font-family: 'Amatic SC', cursive;
- 
+  
 }
+.hello:hover{
+    transform: scale(2);
 
+}
 
 
 .button {
