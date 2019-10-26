@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+.hello{
+    transition:0.5s all ease;
+  margin: 30px;
+  font-size:50px;
+  padding: 20p;
+  background-color:#4aed5f;
+  color:#c141e8;
+  border-radius:200px;
+  width:100px;
+  height:100px;
+  font-weight:700;
+  font-family: 'Amatic SC', cursive;
+  
+}
+.hello:hover{
+    transform: scale(2);
+
+}
+
+
 .button {
     background-color: #fff;
     border-radius: 9198px;
@@ -35,4 +57,8 @@
 }
 .yellow{
     background-color: #f3f5d5;
+}
+
+.bigger-button{
+    font-size:3em;
 }
