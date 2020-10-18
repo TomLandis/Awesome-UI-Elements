@@ -1,4 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+.outer-container {
+  height: 400px;
+  width: 400px;
+  border-radius: 30%;
+  background-image: url("https://source.unsplash.com/rn21q4rmSE4/400x400");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow:hidden;
+}
+.inner {
+  text-align: center;
+  font-size: 5em;
+  font-family: "Shadows Into Light", cursive;
+  color: white;
+  transition: 0.2s all ease;
+  background-color: rgba(0,0,0,0);
+    width:100%;
+  line-height:0.85em;
+  height:100%;
+  padding-top:3em;
+}
+.inner:hover{
+  cursor:pointer;
+  background-color:rgba(0,0,0,0.6);
+  transform:scale(1.75)
+}
 
 .hello{
     transition:0.5s all ease;
