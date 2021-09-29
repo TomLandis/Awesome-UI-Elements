@@ -1,6 +1,10 @@
 <div align="center">
 <img width="500" height="350" src="https://gitcdn.xyz/repo/sindresorhus/awesome/master/media/logo.svg" alt="Awesome">
 </div>
+# New this year: Tailwind: 
+
+I'm woring on a tailwind project now so i would like to build some versitile reusable components that use the tailwind css framework.
+that will be in the /tailwind directory.
 
 # Awesome-UI-Elements
 basically a collection of cool buttons, cards, navs, components, really sweet bits of UI that can be pulled out and plugged into any project
