@@ -30,9 +30,50 @@
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
       d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
   </svg><span class="hidden lg:inline">Reorder</span></button>
+<<<<<<< HEAD
 <button
   class="animate-pulse rounded-full py-3 px-6 m-10 p-5 text-5xl focus:outline-none focus:ring-4 focus:ring-green-500 focus:ring-opacity-50 text-pink-500 bg-green-100">START</button>
 <button
   class="animate-pulse rounded-full py-3 px-6 m-10 p-5 text-5xl focus:outline-none focus:ring-4 focus:ring-red-500 focus:ring-opacity-50 text-green-500 bg-red-100">STOP</button>
 <button
   class="animate-pulse rounded-full py-3 px-6 m-10 p-5 text-5xl focus:outline-none focus:ring-4 focus:ring-pink-500 focus:ring-opacity-50 text-pink-400 bg-purple-200">PAUSE</button>
+=======
+  <button class="animate-pulse rounded-full py-3 px-6 m-10 p-5 text-5xl focus:outline-none focus:ring-4 focus:ring-green-500 focus:ring-opacity-50 text-pink-500 bg-green-100">START</button>
+  <section>
+    <h2 class="text-center text-3xl bg-green-100">Chord Diagrams</h2>
+    
+    <div class="flex flex-wrap">
+      <div class="w-full text-center">
+        <button
+          class="bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-5xl px-8 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 mt-8 ease-linear transition-all duration-150"
+          type="button" onmouseenter="openPopover(event,'tooltip-example')"
+          onmouseleave="openPopover(event,'tooltip-example')">
+          C
+        </button>
+        <div
+          class="hidden bg-white border-0 mb-3 block z-50 font-normal leading-normal text-sm max-w-xs text-left no-underline break-words rounded-lg"
+          id="tooltip-example">
+          <div>
+            <div class="bg-white text-gray opacity-75 p-3 mb-0 border border-solid uppercase rounded">
+              <img src="https://www.dropbox.com/s/eb6yonpezctmy1c/308284.image1.jpg?dl=1" class="w-auto h-20" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Required popper.js -->
+    <script src="https://unpkg.com/@popperjs/core@2.9.1/dist/umd/popper.min.js" charset="utf-8"></script>
+    <script>
+      function openPopover(event, tooltipID) {
+        let element = event.target;
+        while (element.nodeName !== "BUTTON") {
+          element = element.parentNode;
+        }
+        var popper = Popper.createPopper(element, document.getElementById(tooltipID), {
+          placement: 'bottom'
+        });
+        document.getElementById(tooltipID).classList.toggle("hidden");
+      }
+    </script>
+      </section>
+>>>>>>> b1be8a6454e0ab81ba931fbd3d59edaa8aee8290
