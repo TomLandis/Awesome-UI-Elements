@@ -72,6 +72,25 @@
         </div>
       </div>
     </div>
+    <div class="flex flex-wrap">
+      <div class="w-full text-center">
+        <button
+          class="bg-green-500 text-white active:bg-purple-600 font-bold text-5xl px-8 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 mt-8 ease-linear transition-all duration-150"
+          type="button" onmouseenter="openPopover(event,'tooltip-example')"
+          onmouseleave="openPopover(event,'tooltip-example')">
+          Em
+        </button>
+        <div
+          class="hidden bg-white border-0 mb-3 block z-50 font-normal leading-normal text-sm max-w-xs text-left no-underline break-words rounded-lg"
+          id="tooltip-example">
+          <div>
+            <div class="bg-white text-gray opacity-75 p-3 mb-0 border border-solid uppercase rounded">
+              <img src="https://www.dropbox.com/s/3gplfzvah61tlfu/download.png?dl=1" class="w-auto h-20" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Required popper.js -->
     <script src="https://unpkg.com/@popperjs/core@2.9.1/dist/umd/popper.min.js" charset="utf-8"></script>
     <script>
