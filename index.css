@@ -133,3 +133,9 @@ body{
     max-width: 100%;
   }
 }
+.tilty{
+  transition:all ease-in-out 0.2s;
+}
+.tilty:hover{
+  transform:rotate(-3deg);
+}
