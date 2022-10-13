@@ -1,6 +1,11 @@
 <div align="center">
 <img width="500" height="350" src="https://gitcdn.xyz/repo/sindresorhus/awesome/master/media/logo.svg" alt="Awesome">
 </div>
+
+# Back in 2022 with more Awesomeness!
+
+vanila javascript is welcome in these components too.  This year I'm focusing on animation / interactivity in the components.
+
 # New this year: Tailwind: 
 
 I'm woring on a tailwind project now so i would like to build some versitile reusable components that use the tailwind css framework.
