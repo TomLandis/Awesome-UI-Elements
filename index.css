@@ -46,3 +46,90 @@ body{
   width: 0px;
 
 }
+
+@import url("http://fonts.cdnfonts.com/css/dymo");
+@import url("http://fonts.cdnfonts.com/css/gfs-neohellenic");
+
+:root {
+  font-family: "GFS Neohellenic", sans-serif;
+  --phppurp: #777bb3;
+  --coolgrey: #faf9f5;
+  --jsyellow: #f7df1e;
+  --lightblue: #b0c6d9;
+  --offwhite: #f5f1e4;
+  --deepblue: #364254;
+  --darkgreen: #bddbbe;
+  --brown: #99947a;
+}
+.badgeOfHonor {
+  display: flex;
+  height: 30px;
+  padding: 0.3em;
+  transition: 0.2s ease-in-out all;
+  border-radius: 5px;
+  background-color: var(--offwhite);
+  margin: 1em;
+}
+.ptitle {
+  font-family: "GFS Neohellenic", sans-serif;
+  font-size: 1.8em;
+  text-align: center;
+}
+.badgeOfHonor:hover {
+  background-color: var(--coolgrey);
+  cursor: pointer;
+}
+.badgeHolder {
+  display: flex;
+  background-color: var(--deepblue);
+}
+.js:hover {
+  background-color: var(--jsyellow);
+}
+.php:hover {
+  background-color: var(--phppurp);
+}
+.wp:hover,
+.ps:hover {
+  background-color: var(--lightblue);
+}
+.node:hover,
+.bash:hover {
+  background-color: var(--darkgreen);
+}
+.mongo:hover {
+  background-color: var(--brown);
+}
+.projectHolder {
+  max-width: 800px;
+  background-color: var(--offwhite);
+  border-radius: 5px;
+  margin-bottom: 1em;
+  border: 2px solid var(--deepblue);
+}
+.twocol img {
+  margin: 1em;
+  border-radius: 10px;
+}
+.twocol p {
+  padding: 0em 2em 0em 0em;
+  font-size: 1.2em;
+}
+.twocol {
+  display: flex;
+  justify-content: center;
+}
+.twocol img {
+  max-width: 50%;
+}
+
+@media only screen and (max-width: 680px) {
+  .twocol {
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.2em;
+  }
+  .twocol img {
+    max-width: 100%;
+  }
+}
