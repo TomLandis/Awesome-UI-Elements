@@ -1,0 +1,26 @@
+{
+  "name": "awesome-ui-elements",
+  "version": "1.0.0",
+  "description": "This Repo will hold reusable ui elements for applications and sites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomLandis/Awesome-UI-Elements.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "reuse",
+    "ui",
+    "elements",
+    "components"
+  ],
+  "author": "Tom Landis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomLandis/Awesome-UI-Elements/issues"
+  },
+  "homepage": "https://github.com/TomLandis/Awesome-UI-Elements#readme"
+}
