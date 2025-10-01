@@ -1,6 +1,14 @@
 <div align="center">
-<img width="500" height="350" src="https://gitcdn.xyz/repo/sindresorhus/awesome/master/media/logo.svg" alt="Awesome">
+<img width="500" height="350" src="/eric-diaz-cOZBR2cfrCQ-unsplash.jpg" alt="Awesome">
 </div>
+
+# Big changes ins 2025
+
+adding server.js, express, refactoring for better organizaiton
+
+- the .env file has these values for me, change as you need : URL=localhost  PORT=5555
+- lets keep it to imports not require 🙃
+- I'm not going to add a bunch of issues this year, please feel free to extend this project in almost any way.
 
 # Back in 2022 with more Awesomeness!
 
