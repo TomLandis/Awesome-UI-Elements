@@ -20,7 +20,8 @@ const options = {
 
 
 // middleware
-app.use(express.static(join(__dirname, 'public')));
+//app.use(express.static(join(__dirname, 'public')));
+app.use(express.static("public"));
 app.set('view engine', 'ejs');
 
 
