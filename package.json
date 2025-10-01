@@ -4,12 +4,15 @@
   "description": "This Repo will hold reusable ui elements for applications and sites.",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TomLandis/Awesome-UI-Elements.git"
   },
+  "type": "module",
   "keywords": [
     "boilerplate",
     "reuse",
@@ -22,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/TomLandis/Awesome-UI-Elements/issues"
   },
-  "homepage": "https://github.com/TomLandis/Awesome-UI-Elements#readme"
+  "homepage": "https://github.com/TomLandis/Awesome-UI-Elements#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
 }
